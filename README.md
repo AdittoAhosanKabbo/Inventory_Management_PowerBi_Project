@@ -32,13 +32,24 @@
 <!-- Fallback GIF preview -->
 <p>
   <a href="https://raw.githubusercontent.com/AdittoAhosanKabbo/Inventory_Management_PowerBi_Project/main/Assets/inventory_management_video.mp4">
-    <img src="https://github.com/AdittoAhosanKabbo/Inventory_Management_PowerBi_Project/blob/main/Assets/inventory_management.gif?raw=true" alt="Video Preview" width="80%">
+    <img src="https://github.com/AdittoAhosanKabbo/Inventory_Management_PowerBi_Project/blob/main/Assets/inventory_management.gif?raw=true" alt="Video Preview" width="50%">
   </a>
 </p>
 
 <p>
   📽️ <strong><a href="https://raw.githubusercontent.com/AdittoAhosanKabbo/Inventory_Management_PowerBi_Project/main/Assets/inventory_management_video.mp4">Watch Full Video Demo</a></strong>
 </p>
+
+https://github.com/user-attachments/assets/94fa257a-ebeb-417e-884b-fd523a835b4a
+
+
+<hr>
+
+
+
+
+
+
 
 
 
