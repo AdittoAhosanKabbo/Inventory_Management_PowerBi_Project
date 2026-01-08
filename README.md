@@ -5,6 +5,26 @@
 </p>
 
 <hr>
+<h2>Executive Summary</h2>
+<p>
+  I developed an <strong>Inventory Management Power BI dashboard</strong> to give stakeholders a clear, real-time view of
+  inventory risk and replenishment priorities across <strong>5,000 SKUs/products</strong>, <strong>7 categories</strong>, and
+  <strong>10 countries</strong>. It highlights current availability (<strong>4,226 in stock vs 774 out of stock</strong>)
+  and identifies <strong>263 SKUs below reorder point</strong>, enabling faster, exception-based decisions. The dashboard
+  also tracks supplier lead-time performance (e.g., <strong>SUP0041 at 17.3 days</strong>) to surface bottlenecks and
+  support more reliable planning.
+</p>
+
+<h2>Business Problem</h2>
+<p>
+  Inventory teams need to balance availability and cost, but limited visibility makes it hard to spot issues early. The
+  business needs a single report that answers: <strong>Which SKUs/products are most at risk of stockouts</strong>,
+  <strong>where reorder breaches are concentrated</strong>, and <strong>which suppliers/locations are driving delays</strong>.
+  This enables stakeholders to prioritize replenishment, reduce disruption, and improve supply reliability.
+</p>
+
+
+
 
 ## 📊 Interactive Power BI Dashboard
 
@@ -53,63 +73,52 @@ https://github.com/user-attachments/assets/94fa257a-ebeb-417e-884b-fd523a835b4a
 
 
 
-<h2><span>📌</span> Project Goal</h2>
-<p>To develop a <strong>dynamic inventory management dashboard</strong> that helps supply chain teams:</p>
+<h2>KPI Summary</h2>
 <ul>
-  <li>✔ Optimize stock levels</li>
-  <li>✔ Reduce stockouts and excess inventory</li>
-  <li>✔ Enhance supplier performance and reorder processes</li>
+  <li><strong>Products Tracked:</strong> 5,000</li>
+  <li><strong>Availability:</strong> 4,226 in stock (84.5%) | 774 out of stock (15.5%)</li>
+  <li><strong>Replenishment Risk:</strong> 263 products below reorder level</li>
+  <li><strong>Total Inventory:</strong> 2.5M+ units | <strong>Net Value:</strong> $1.25B</li>
+  <li><strong>Supplier Lead Time:</strong> 14.96 days avg | <strong>Highest:</strong> SUP0041 (17.30 days)</li>
 </ul>
 
-<h2><span>🔍</span> Key Insights</h2>
 
-<h3><span>📦</span> Stock Overview</h3>
+<h2>Key Insights</h2>
 <ul>
-  <li><strong>Total Products</strong>: 5,000 (🟢 4,226 in stock | 🔴 774 out of stock)</li>
-  <li><strong>Total Stock</strong>: 2.5M+ units across 7 categories</li>
-  <li><strong>Stock Net Price</strong>: $1.25B</li>
-  <li><strong>Avg Reorder Point</strong>: 53.39 | ⏱️ <strong>Avg Lead Time</strong>: 14.96 Days | 🔁 <strong>Avg Turnover Rate</strong>: 4.49</li>
-  <li><strong>Identification of 263 products below reorder level</strong></li>
-  <li><strong>Warehouse analysis across 10 countries</strong></li>
-  <li><strong>Seasonal trends in restocking and supplier lead times</strong></li>
+  <li><strong>Immediate service risk:</strong> 774 products are out of stock.</li>
+  <li><strong>Action needed:</strong> 263 products are below reorder level and should be prioritized for replenishment.</li>
+  <li><strong>Supplier bottleneck:</strong> SUP0041 shows the longest average lead time (17.3 days).</li>
+  <li><strong>Planning signal:</strong> Restocking peaks in May and October, requiring proactive procurement and capacity planning.</li>
 </ul>
+<h2>Business Recommendations</h2>
 
-<h3><span>🚚</span> Supplier & Restocking</h3>
-<ul>
-  <li><strong>Highest Lead Time Supplier</strong>: SUP0041 (17.30 days).</li>
-  <li><strong>Out of Stock Delay</strong>: 216 days since last restock.</li>
-  <li><strong>Seasonal Peaks</strong>: May (462) and October (457) for restocking.</li>
-</ul>
 
-<h3><span>💰</span> Cost & Pricing</h3>
+
 <ul>
-  <li><strong>Top 5 Expensive Products</strong>:
-    <ul>
-      <li>SKU003416 ($999.73, Books)</li>
-      <li>SKU001411 ($999.70, Electronics)</li>
-      <li>SKU004810 ($999.51, Home & Garden)</li>
-      <li>SKU005053 ($995.92, Office Supplies)</li>
-      <li>SKU007081 ($995.92, Books)</li>
-    </ul>
+  <li>
+    <strong>Fix the immediate availability gap:</strong>
+    Focus first on <strong>out-of-stock</strong> and <strong>below-reorder</strong> products, prioritizing high-impact categories and countries
+    to restore service levels and reduce lost-sales risk.
   </li>
-  <li><strong>Fastest Turnover</strong>: Clothing (74.25).</li>
-</ul>
 
-<h3><span>🌍</span> Warehouse & Geography</h3>
-<ul>
-  <li><strong>Top Category by Stock</strong>: Home & Garden (0.38M units).</li>
-  <li><strong>Top Warehouse by product stored</strong>: AISLE-02-SHELF-03 & AISLE-03-SHELF-11 (13 products each).</li>
-  <li><strong>Most Stocked Country</strong>: Germany (277K units, 533 products).</li>
-  <li><strong>Top 3 Countries by Category and highest stock</strong>:
-    <ul>
-      <li>Germany</li>
-      <li>Spain</li>
-      <li>Belgium</li>
-    </ul>
+  <li>
+    <strong>Reduce supplier-driven delays:</strong>
+    Target long lead-time suppliers—starting with <strong>SUP0041</strong>—by reviewing performance, setting lead-time targets,
+    and enabling <strong>backup sourcing</strong> for critical products
+  </li>
+
+  <li>
+    <strong>Plan ahead for predictable peak months:</strong>
+    Since restocking activity spikes in <strong>May</strong> and <strong>October</strong>, adjust ordering timelines and warehouse capacity early
+    (staffing, receiving, space) to prevent bottlenecks and avoid future stockouts.
   </li>
 </ul>
 
-<h2><span>🛠</span> Tools & Technologies Used</h2>
+
+<hr>
+
+
+<h2><span></span> Tools & Technologies Used</h2>
 <p>Power BI | Power Query | DAX | Data Modeling | Figma (UI)</p>
 
 
@@ -118,12 +127,12 @@ https://github.com/user-attachments/assets/94fa257a-ebeb-417e-884b-fd523a835b4a
 
 
 
-<h2><span>📈</span> Impact</h2>
+<h2><span></span> Impact</h2>
 <p>This dashboard demonstrates how <strong>data-driven inventory strategies</strong> can:</p>
 <ul>
-  <li>✔ <strong>Reduce stockouts and overstock</strong></li>
-  <li>✔ <strong>Improve supplier performance</strong></li>
-  <li>✔ <strong>Enhance warehouse efficiency</strong></li>
+  <li> <strong>Reduce stockouts and overstock</strong></li>
+  <li> <strong>Improve supplier performance</strong></li>
+  <li> <strong>Enhance warehouse efficiency</strong></li>
 </ul>
 
 <hr>
