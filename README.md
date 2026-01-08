@@ -14,7 +14,7 @@
 
 <hr>
 
-<h2><span></span> Dashboard Preview</h2>
+<h2>Dashboard Preview</h2>
 <p>Explore the key pages of the Power BI dashboard (screenshots placeholder):</p>
 
 <p>
@@ -25,7 +25,7 @@
 
 <hr>
 
-<h2><span></span> Dashboard Video Demo</h2>
+<h2>Dashboard Video Demo</h2>
 <p>Watch the interactive <strong>Inventory Management Dashboard</strong> in action:</p>
 
 
@@ -53,7 +53,7 @@ https://github.com/user-attachments/assets/94fa257a-ebeb-417e-884b-fd523a835b4a
 
 
 
-<h2><span></span> Project Goal</h2>
+<h2>Project Goal</h2>
 <p>To develop a <strong>dynamic inventory management dashboard</strong> that helps supply chain teams:</p>
 <ul>
   <li>Optimize stock levels</li>
@@ -61,9 +61,9 @@ https://github.com/user-attachments/assets/94fa257a-ebeb-417e-884b-fd523a835b4a
   <li>Enhance supplier performance and reorder processes</li>
 </ul>
 
-<h2><span></span> Key Insights</h2>
+<h2>Key Insights</h2>
 
-<h3><span></span> Stock Overview</h3>
+<h3>Stock Overview</h3>
 <ul>
   <li><strong>Total Products</strong>: 5,000 (4,226 in stock | 774 out of stock)</li>
   <li><strong>Total Stock</strong>: 2.5M+ units across 7 categories</li>
@@ -74,14 +74,14 @@ https://github.com/user-attachments/assets/94fa257a-ebeb-417e-884b-fd523a835b4a
   <li><strong>Seasonal trends in restocking and supplier lead times</strong></li>
 </ul>
 
-<h3><span></span> Supplier & Restocking</h3>
+<h3>Supplier & Restocking</h3>
 <ul>
   <li><strong>Highest Lead Time Supplier</strong>: SUP0041 (17.30 days).</li>
   <li><strong>Out of Stock Delay</strong>: 216 days since last restock.</li>
   <li><strong>Seasonal Peaks</strong>: May (462) and October (457) for restocking.</li>
 </ul>
 
-<h3><span></span> Cost & Pricing</h3>
+<h3>Cost & Pricing</h3>
 <ul>
   <li><strong>Top 5 Expensive Products</strong>:
     <ul>
@@ -95,7 +95,7 @@ https://github.com/user-attachments/assets/94fa257a-ebeb-417e-884b-fd523a835b4a
   <li><strong>Fastest Turnover</strong>: Clothing (74.25).</li>
 </ul>
 
-<h3><span></span> Warehouse & Geography</h3>
+<h3>Warehouse & Geography</h3>
 <ul>
   <li><strong>Top Category by Stock</strong>: Home & Garden (0.38M units).</li>
   <li><strong>Top Warehouse by product stored</strong>: AISLE-02-SHELF-03 & AISLE-03-SHELF-11 (13 products each).</li>
@@ -109,7 +109,7 @@ https://github.com/user-attachments/assets/94fa257a-ebeb-417e-884b-fd523a835b4a
   </li>
 </ul>
 
-<h2><span></span> Tools & Technologies Used</h2>
+<h2>Tools & Technologies Used</h2>
 <p>Power BI | Power Query | DAX | Data Modeling | Figma (UI)</p>
 
 
@@ -118,7 +118,7 @@ https://github.com/user-attachments/assets/94fa257a-ebeb-417e-884b-fd523a835b4a
 
 
 
-<h2><span></span> Impact</h2>
+<h2>Impact</h2>
 <p>This dashboard demonstrates how <strong>data-driven inventory strategies</strong> can:</p>
 <ul>
   <li><strong>Reduce stockouts and overstock</strong></li>
